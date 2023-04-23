@@ -316,7 +316,7 @@ footer a {
 #recycle_main .hero img,
 #responsibility_main .hero img,
 #contact_main .hero img{
-    height:500px;
+    max-height:500px;
 }
 
 #recycle_main .hero{
