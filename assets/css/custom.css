@@ -272,6 +272,21 @@ footer .col-12{
     text-align: center;
 }
 
+footer li{
+    list-style: none;
+    display: inline;
+}
+
+footer li + li:before {
+    content: " | ";
+    padding: 0 10px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
 #top {
     display: none;
     position: fixed;
@@ -293,3 +308,24 @@ footer .col-12{
 #top:hover {
     background-color: #464545;
 }
+.hero {
+    margin : 0 auto;
+    text-align: center;
+}
+
+#recycle_main .hero img,
+#responsibility_main .hero img,
+#contact_main .hero img{
+    height:500px;
+}
+
+#recycle_main .hero{
+    background-color: #38B14E;
+}
+#responsibility_main .hero{
+    background-color: #00AA95;
+}
+#contact_main .hero{
+    background-color: #d2d2d2;
+}
+
