@@ -313,33 +313,50 @@ footer a {
     background-color: #d2d2d2;
 }
 
+.main_content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-repeat: repeat;
+}
+.main_content>div{
+    padding: 20px;
+    border-radius: 30px;
+}
 .main_content h4 {
     font-family: 'Quicksand';
 }
 .main_content h5 {
     text-decoration: underline;
-    text-decoration-color: #FFFF4E;
     text-decoration-thickness: 3px;
 }
-.main_content li {
+.main_content>div>ul>li {
     font-family: 'Poppins';
     padding-top: 20px;
+    list-style-type: none;
 }
+
 #recycle_main .main_content{
-    padding-top: 30px;
-    padding-bottom: 30px;
     background-image: url('../images/go-green-pattern.jpg');
-    background-repeat: repeat;
-    color: white;
+}
+#beachcleanup_main .main_content{
+    background-image: url('../images/beach-cleanup-pattern.jpg');
 }
 
 #recycle_main .main_content>div{
-    /* background-color: rgba(139, 204, 62, 0.92); */
-    background-color: rgba(56, 177, 78, 0.92);
-    padding: 20px;
+    background-color: rgba(11, 60, 45, 0.95);
+    /* background-color: rgba(56, 177, 78, 0.92); */
     border: 5px solid #FFFF4E;
-    border-radius: 30px;
+    color: white;
 }
 #beachcleanup_main .main_content>div{
-    background-color: #d0e9ee;
+    background-color: #FAD783;
+    border: 5px solid #28527A;
+    color: black;
+}
+
+#recycle_main .main_content h5{
+    text-decoration-color: #FFFF4E;
+}
+#beachcleanup_main .main_content h5{
+    text-decoration-color: #28527A;
 }
