@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 /*Medium and Below*/
 @media screen and (max-width: 768px) {
@@ -319,7 +320,7 @@ footer a {
 }
 
 #recycle_main .hero{
-    background-color: #38B14E;
+    background-color: rgb(56, 177, 78);
 }
 #beachcleanup_main .hero {
     background: rgb(208,233,238);
@@ -331,8 +332,32 @@ footer a {
     background-color: #d2d2d2;
 }
 
+.main_content h4 {
+    font-family: 'Quicksand';
+}
+.main_content h5 {
+    text-decoration: underline;
+    text-decoration-color: #FFFF4E;
+    text-decoration-thickness: 3px;
+}
+.main_content li {
+    font-family: 'Poppins';
+    padding-top: 20px;
+}
+#recycle_main .main_content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url('../images/go-green-pattern.jpg');
+    background-repeat: repeat;
+    color: white;
+}
+
 #recycle_main .main_content>div{
-    background-color: #38B14E;
+    /* background-color: rgba(139, 204, 62, 0.92); */
+    background-color: rgba(56, 177, 78, 0.92);
+    padding: 20px;
+    border: 5px solid #FFFF4E;
+    border-radius: 30px;
 }
 #beachcleanup_main .main_content>div{
     background-color: #d0e9ee;
