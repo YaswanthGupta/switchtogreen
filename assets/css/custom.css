@@ -401,7 +401,7 @@ footer a {
     color: white;
 }
 #beachcleanup_main .main_content>div{
-    background-color: #FAD783;
+    background-color: rgba(250, 214, 131, 0.86);
     border: 5px solid #28527A;
     color: black;
 }
