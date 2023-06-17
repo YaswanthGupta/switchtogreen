@@ -355,6 +355,12 @@ footer a {
 #recycle_main .hero{
     background-color: rgb(56, 177, 78);
 }
+#compost_main .hero{
+    background-color: #EBEDD8;
+}
+#bamboo_main .hero{
+    background-color: #E1E1DF;
+}
 #beachcleanup_main .hero {
     background: rgb(208,233,238);
     background: linear-gradient(180deg, rgba(208,233,238,1) 0%, rgba(208,233,238,1) 43%, rgba(122,173,200,1) 43%, rgba(122,173,200,1) 45%, rgba(95,148,180,1) 51%, rgba(250,215,131,1) 56%);}
@@ -390,15 +396,30 @@ footer a {
 #recycle_main .main_content{
     background-image: url('../images/go-green-pattern.jpg');
 }
+#compost_main .main_content{
+    background-image: url('../images/compost-pattern.jpg');
+}
+#bamboo_main .main_content{
+    background-image: url('../images/bamboo-pattern.jpg');
+}
 #beachcleanup_main .main_content{
     background-image: url('../images/beach-cleanup-pattern.jpg');
 }
 
 #recycle_main .main_content>div{
     background-color: rgba(11, 60, 45, 0.95);
-    /* background-color: rgba(56, 177, 78, 0.92); */
     border: 5px solid #FFFF4E;
     color: white;
+}
+#compost_main .main_content>div{
+    background-color: rgba(250, 214, 131, 0.9);
+    border: 5px solid #704012;
+    color: black;
+}
+#bamboo_main .main_content>div{
+    background-color: rgba(241, 219, 195, 0.9);
+    border: 5px solid #5C7C29;
+    color: black;
 }
 #beachcleanup_main .main_content>div{
     background-color: rgba(250, 214, 131, 0.86);
