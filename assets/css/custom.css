@@ -370,6 +370,9 @@ footer a {
 #contact_main .hero{
     background-color: #d2d2d2;
 }
+#circular_economy_main .hero{
+    background-color: white;
+}
 
 .main_content{
     padding-top: 30px;
@@ -405,6 +408,9 @@ footer a {
 #beachcleanup_main .main_content{
     background-image: url('../images/beach-cleanup-pattern.jpg');
 }
+#circular_economy_main .main_content{
+    background-image: url('../images/circular-economy-pattern.jpg');
+}
 
 #recycle_main .main_content>div{
     background-color: rgba(11, 60, 45, 0.95);
@@ -424,6 +430,11 @@ footer a {
 #beachcleanup_main .main_content>div{
     background-color: rgba(250, 214, 131, 0.86);
     border: 5px solid #28527A;
+    color: black;
+}
+#circular_economy_main .main_content>div{
+    background-color: rgba(245, 172, 55, 0.85);
+    border: 5px solid #1A4F35;
     color: black;
 }
 
